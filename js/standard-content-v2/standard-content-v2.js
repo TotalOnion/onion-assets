@@ -3,7 +3,6 @@
 export default function standardcontentV2Js(options = {}) {
 	try {
 		const {block} = options;
-		console.log("🚀 ~ standardcontentV2Js ~ block:", block)
 		const dataset = block.dataset;
 		if (dataset.enablevideoncontroller) {
 			import('@pernod-ricard-global-cms/cblvideocontroller')
